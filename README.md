@@ -1,4 +1,4 @@
-# php-cs-waf-alpha-1
+# CyberSecurity WAF Gate v1.0-alpha
 PHP CyberSecutiy WAF Gate Alpha Version 1.0
 
 How to install?
