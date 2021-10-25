@@ -1,0 +1,86 @@
+﻿/*!
+  * Name: Style
+  * Author: DevDJ
+  * Version: 1.0
+  * Copyrights 2019 DevDJ
+*/
+
+html, body {
+	background: #181818;
+	color: #FAFAFA;
+	margin-top: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+img.brand {
+	display: block;
+	opacity: .95;
+	max-height: 85px;
+	margin: 0 auto;
+	opacity: .80;
+}
+h1.message {
+	text-align: center;
+	margin-top: 45px;
+	font-weight: 100;
+	font-size: 20px;
+	opacity: .9;
+	color: #E0E0E0;
+	line-height: 30px;
+}
+h1.message a:link {
+	text-decoration: none;
+	color: #E0E0E0;
+	font-weight: 300;
+}
+span.loading {
+	text-align: center;
+	display: block;
+	font-size: 45px;
+	margin-top: 45px;
+	color: rgba(250, 250, 250, 0.5);
+}
+.text-waiting {
+	color: #E0E0E0 !important;
+}
+.text-success {
+	color: #02db38 !important;
+}
+.text-error {
+	color: #c10808 !important;
+}
+.text-message-info {
+	color: #116ff5 !important; 
+}
+.logo {
+	width: 300px;
+}
+.footer {
+	text-align: center;
+}
+.first-footer {
+	position: fixed;
+	width: 100%;
+	bottom: 100px;
+	left: 0;
+}
+.second-footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	left: 0;
+}
+.copytight {
+	
+}
+.copytight a, a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: orange;
+	font-weight: 300;
+}
+.author-logo {
+	width: 150px;
+}
+
+noscript {
+	visibility: hidden;
+}
