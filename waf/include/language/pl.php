@@ -15,8 +15,6 @@ $lang['error']['header']['2'] = "Wystąpił nieoczekiwany Błąd.";
 //Error Messages
 $lang['error']['database'] = "Nie udało się Połączyć z Bazą Danych: ";
 $lang['error']['system'] = "Skontaktuj się z Administratorem: <b>contact@devdj.pl</b>";
-$lang['error']['app-website'] = "Nie można podpiąć Cyber Security pod Stronę Aplikacji";
-$lang['error']['app-author'] = "Nie można podpiąć Cyber Security pod Stronę Autora";
 $lang['error']['ip'] = "Nie Poprawny Adress IP";
 $lang['error']['location'] = "Nie Poprawna Lokalizacja";
 $lang['error']['proxy'] = "Wykryto Proxy.<br />Aby móc korzystać z tej Strony musisz je Wyłączyć";
