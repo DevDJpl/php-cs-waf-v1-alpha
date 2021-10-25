@@ -15,9 +15,6 @@ $lang['error']['header']['2'] = "An unexpected Error occurred.";
 //Error Messages
 $lang['error']['database'] = "Failed to Connect to the Database: ";
 $lang['error']['system'] = "Contact the Administrator: <b>contact@devdj.pl</b>";
-$lang['error']['app-website'] = "Cyber ​​Security cannot be connected to the Application Page";
-$lang['error']['app-website'] = "Cyber ​​Security cannot be connected to the Application Page";
-$lang['error']['app-author'] = "You cannot connect Cyber ​​Security to the Author's Website";
 $lang['error']['ip'] = "No Correct IP Address";
 $lang['error']['location'] = "Not Correct Location";
 $lang['error']['proxy'] = "Proxy Detected.<br />You must disable it to use this Site";
