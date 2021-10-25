@@ -112,12 +112,6 @@ if(isset($pdo)){
 				</span>
 			</div>
 			<div class="footer">
-				<div class="first-footer">
-					<p class="copyright"><h1 class="message">Powered by:</h1></p>
-					<a href="//DevDJ.pl" target="_blank" name="DevDJ" title="DevDJ" rel="DevDJ" noopener="DevDJ">
-						<img class="author-logo" src="../waf/images/author-logo.png">
-					</a>
-				</div>
 				<div class="second-footer">
 					<p class="copyright">&copy <script>document.write(new Date().getFullYear())</script>  <a href="//DevDJ.pl" target="_blank" name="DevDJ" title="DevDJ" rel="DevDJ" noopener="DevDJ">Cyber Security</a> - All Rights Reserved</p>
 				</div>
