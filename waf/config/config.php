@@ -4,10 +4,10 @@ $config = array();
 // Config Database
 $config['database'] = array(
 
-	'host' => 'serwer1962108.home.pl', //IP Bazy Danych
-	'user' => '31072472_waf', //Login do Bazy Danych
-	'password' => 'ZvSW1pxD3L2yeZ7G8', //Haslo do Bazy Danych
-	'databaseName' => '31072472_waf' //Nazwa Bazy Danych
+	'host' => '', //Database IP
+	'user' => '', //Database User
+	'password' => '', //Database Password
+	'databaseName' => '' //Database Name
 
 );
 
@@ -28,7 +28,7 @@ $config['global'] = array(
 		'js' => 'js/'
 	),
 	'surfix' => array(
-		'pages' => '.page', //Naza pliku między nazwą a rozszeżeniem
+		'pages' => '.page', //Name extension file
 		'svg' => '.svg',
 		'png' => '.png',
 		'jpg' => '.jpg',
@@ -43,19 +43,19 @@ $config['global'] = array(
 
 // Config Language
 $config['lang'] = array(
-	'enabled' => true, //Włączyć czy Wyłaczyć
-	'prefix' => '', //Prefix plików z językami (nazwa przed skrótem języka)
-	'surfix' => '', //Surfix plików z językami (nazwa po skrócie języka)
+	'enabled' => true, //True or False
+	'prefix' => '', //Prefix of files with languages (name before language abbreviation)
+	'surfix' => '', //Surfix language files (name after language abbreviation)
 );
 
 // Config Lacation
 $config['location'] = array(
 	'homepage' => '', //Domyślna Lokalizacja strony
-	'lang' => 'include/language/', //Lokalizacja plików z tłumaczeniem
-	'template' => 'templates/', //Lokalizacja szablonów
-	'include' => 'include/', //Lokalizacja dołączanych plików
-	'pages' => 'pages/', //Lokalizacja stron
-	'php' => 'php/' //Lokalizacja plików php (Connecta do bazy itp)
+	'lang' => 'include/language/', //Localization of translation files
+	'template' => 'templates/', //Template location
+	'include' => 'include/', //Location of attached files
+	'pages' => 'pages/', //Location of pages
+	'php' => 'php/' //Location of php files (connect to base, etc.)
 );
 
 $config['select'] = array(
