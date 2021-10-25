@@ -189,17 +189,6 @@ if(isset($_POST['domain'])||isset($_POST['ip'])){
 		$site = $_POST['domain'];
 		$hostname = $site;
 		$ip = gethostbyname($site);
-
-		$result = dns_get_record("x-voice.pl", DNS_ANY, $authns, $addtl);
-		/*
-		echo "Result = ";
-		print_r($result);
-		echo "Auth NS = ";
-		print_r($authns);
-		echo "Additional = ";
-		print_r($addtl);
-		echo($hostname." ".$ip);
-		*/
 	}
 	if(isset($_POST['ip'])){
 		$ip = $_POST['ip'];
