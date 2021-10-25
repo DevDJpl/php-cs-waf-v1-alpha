@@ -18,31 +18,7 @@ if(isset($_POST['domain'])||isset($_POST['ip'])){
 	$sql = $pdo->prepare($select['site_DNS']);
 	$sql->execute(['hostname'=> $site]);
 	$row = $sql->fetch(PDO::FETCH_ASSOC);
-	if($site=="waf.devdj.pl"){
-		$message = json_encode(array(
-			'message'=> [
-				'type'=> 'error',
-				'class'=> 'text-error',
-				'header'=> $lang['error']['header']['1'],
-				'content'=> $lang['error']['app-website'],
-			]
-		));
-		$sql = $pdo->prepare($insert['messages']);
-		$sql->execute(['id'=> 1,'hostname'=> $_SERVER['SERVER_NAME'],'message'=> $message]);
-		die();
-	}else if($site=="devdj.pl"){
-		$message = json_encode(array(
-			'message'=> [
-				'type'=> 'error',
-				'class'=> 'text-error',
-				'header'=> $lang['error']['header']['1'],
-				'content'=> $lang['error']['app-author'],
-			]
-		));
-		$sql = $pdo->prepare($insert['messages']);
-		$sql->execute(['id'=> 1,'hostname'=> $_SERVER['SERVER_NAME'],'message'=> $message]);
-		die();
-	}else if($sql->rowCount()===0&&$site!=="devdj.pl"&&$site!=="waf.devdj.pl"){
+	if($sql->rowCount()===0){
 		$message = json_encode(array(
 			'message'=> [
 				'type'=> 'error',
